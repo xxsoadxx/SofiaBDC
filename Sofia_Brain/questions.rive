@@ -151,3 +151,126 @@
 
 + [*] (@need) [*] (@balance) [*]
 - <bot respuesta18>
+
+
+//CHECK IN
+
++ [*] (@checkin) [*] (@benefits) [*]
+- <bot respuesta21>
+
++ [*] (@benefits) [*] (@checkin) [*]
+- <bot respuesta21>
+
++ [*] (@checkin) [*] (@preferred) [*]
+- <bot respuesta21>
+
++ [*] (@preferred) [*] (@checkin) [*]
+- <bot respuesta21>
+
+//ASIENTO
+
++ [*] (@sit) [*] (@benefits) [*]
+- <bot respuesta22>
+
++ [*] (@benefits) [*] (@sit) [*]
+- <bot respuesta22>
+
++ [*] (@sit) [*] (@preferred) [*]
+- <bot respuesta22>
+
++ [*] (@preferred) [*] (@sit) [*]
+- <bot respuesta22>
+
+//EMBARQUE
+
++ [*] (@shipment) [*] (@benefits) [*]
+- <bot respuesta23>
+
++ [*] (@benefits) [*] (@shipment) [*]
+- <bot respuesta23>
+
++ [*] (@shipment) [*] (@preferred) [*]
+- <bot respuesta23>
+
++ [*] (@preferred) [*] (@shipment) [*]
+- <bot respuesta23>
+
+//EQUIPAJE
+
++ [*] (@baggage) [*] (@benefits) [*]
+- <bot respuesta24>
+
++ [*] (@benefits) [*] (@baggage) [*]
+- <bot respuesta24>
+
++ [*] (@baggage) [*] (@preferred) [*]
+- <bot respuesta24>
+
++ [*] (@preferred) [*] (@baggage) [*]
+- <bot respuesta24>
+
+//ETIQUETA
+
+
++ [*] (@label) [*] (@benefits) [*]
+- <bot respuesta25>
+
++ [*] (@benefits) [*] (@label) [*]
+- <bot respuesta25>
+
++ [*] (@label) [*] (@preferred) [*]
+- <bot respuesta25>
+
++ [*] (@preferred) [*] (@label) [*]
+- <bot respuesta25>
+
+//SALONES PACIFIC CLUB
+
++ [*] (@pacificclub) [*] (@benefits) [*]
+- <bot respuesta26>
+
++ [*] (@benefits) [*] (@pacificclub) [*]
+- <bot respuesta26>
+
++ [*] (@pacificclub) [*] (@preferred) [*]
+- <bot respuesta26>
+
++ [*] (@preferred) [*] (@pacificclub) [*]
+- <bot respuesta26>
+
+
+//QUE BENEFICIOS
+
++ [*] (@what) [*] (@benefitss) [*]
+- <bot respuesta27>
+
++ [*] (@benefitss) [*] (@what) [*]
+- <bot respuesta27>
+
++ [*] (@what) [*] (@preferred) [*]
+- <bot respuesta27>
+
++ [*] (@preferred) [*] (@what) [*]
+- <bot respuesta27>
+
+//PASAJE EN CUOTAS
+
++ [*] (@ticket) [*] (@finance) [*]
+- <bot respuesta28>
+
++ [*] (@finance) [*] (@ticket) [*]
+- <bot respuesta28>
+
++ [*] (@ticket) [*] (@what) [*]
+- <bot respuesta28>
+
++ [*] (@what) [*] (@ticket) [*]
+- <bot respuesta28>
+
+//VALIDEZ
+
++ [*] (@when) [*] (@valid) [*]
+- <bot respuesta29>
+
++ [*] (@valid) [*] (@when) [*]
+- <bot respuesta29>

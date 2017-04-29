@@ -8,6 +8,8 @@
 
 ! array dolar= dolar dolares
 
+! array checkin= check in|checkin|chec in|checin|chequin|cheque in|chek in|checin|chequin
+
 ! array dolarprize= dolar premio|dolares premio|dolar premios|dolares premios
 
 ! array welcome     = hay alguien|hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas|saludo|saludos|que tal|alo|buenos dias|hi
@@ -44,3 +46,24 @@
 
 ! array balance= balance|balances|saldo|saldos|monto|montos|resto|remanente|sobrante
 
+! array sit = asiento|aciento|butaca|sillon|silla|asientos|acientos|butacas|sillones|sillas
+
+! array shipment = embarque|embarke|embarco|embarcando|embarcare|embarques
+
+! array baggage = equipaje|valija|equipajes|valijas|maleta|maletas
+
+! array label = etiqueta|etiquetas|etiquetada|etiquetadas|etiquetaria|etiquetarian|etiquetare|etiquetaran
+
+! array pacificclub = pacific club|pacificclub|pacificlub|pasific club|pasificlub|pasificclub
+
+! array preferred = preferente|preferencial|preferentes|preferenciales
+
+! array benefits = beneficios|beneficio|ventajas|ventaja
+
+! array finance = cuotas|cuota|financiacion|financia|financiado|financiar|financiados
+
+! array ticket = pasaje|pasajes|ticket|tickets|boleto|boletos
+
+! array valid = valido|valida|validez|validos
+
+! array when = cuando
