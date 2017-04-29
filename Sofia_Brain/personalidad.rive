@@ -36,11 +36,11 @@
 // Como es tu nombre?
 
 + [*] (@namebot)
-* <get name> == undefined => Mi nombre es Sofia y soy su asistente personal. Puedo responder preguntas respecto a Pago de Nóminas
+* <get name> == undefined => Mi nombre es Sofia y soy su asistente personal. Puedo responder preguntas respecto a Travel Sky.
 
 //Necesito ayuda
 + (@need) [*] (@help)
-- Dime en qué te puedo ayudar. Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+- Dime en qué te puedo ayudar. Soy capaz de responder preguntas respecto a Travel Sky. Trata de ser claro y no escribir con saltos de linea.
 
 //Hola
 //(@welcome) [*]
@@ -48,8 +48,6 @@
 // Hola! ¿En que le puedo ayudar?
 
 + (@myname) *
-* <get name> == undefined => <set name={formal}<star2>{/formal}>Encantado de conocerte, <get name>! Mi nombre es Sofia. ¿En que le puedo ayudar?{topic=random}
-* <get name> == undefined => <set name={formal}<star2>{/formal}>Bienvenido, <get name>! Mi nombre es Sofia. ¿En que le puedo ayudar?{topic=random}
 - Ya me lo has dicho, <get name>. ¿En que puedo ayudarle? {weight=2}
 - Lo recuerdo, <get name>. ¿Como puedo ayudarle? {weight=2}
 - Jejeje eres gracioso, <get name>. ¿En que puedo ayudarle?
@@ -67,7 +65,7 @@
 - Soy Sofía un asistente virtual capaz de responder preguntas respecto a Pago de Nóminas. Trata ser claro y no escribir con saltos de línea.
 
 + [*] (a que te dedicas|de que trabajas|que haces|cual es tu tarea|cual es tu ocupacion|cual es tu trabajo|que trabajo haces|que rol cumples) [*]
-- Soy un asistente virtual capaz de responder preguntas respecto a Pago de Nóminas. Trata ser claro y no escribir con saltos de línea.
+- Soy un asistente virtual capaz de responder preguntas respecto a Travel Sky. Trata ser claro y no escribir con saltos de línea.
 
 + [*] (@contact) [*] (ejecutivo|agente|ejecutivos|agentes) [*]
 - <bot respuesta54>
@@ -78,9 +76,13 @@
 
 
 + [*] (que eres capaz de responder|me puedes ayudar|puedes ayudarme|para que servis|para que serbis|para que te hicieron|para que te crearon|que es esto)
-- Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+- Soy capaz de responder preguntas respecto a Travel Sky. Trata de ser claro y no escribir con saltos de linea.
 
 
 + [*] (que debo hacer|que tengo que hacer|que deberia hacer|que se supone que haga|que tendria que hacer|y ahora|y esto|esto no sirve|esto no sirbe|mierda|porqueria|maldita)
-- Debes escribir tu pregunta respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+- Debes escribir tu pregunta respecto a Travel Sky. Trata de ser claro y no escribir con saltos de linea.
 
+
+
++ [*]
+- Unknown

@@ -1,4 +1,4 @@
-! array travelsky= travelsky|travel|sky|skytravel|tarjeta|tarjetas|con ella|con ellas|travelclub|travel club|clubtravel|club travel
+! array travelsky= travelsky|travel|sky|skytravel|travelclub|travel club|clubtravel|club travel
 
 ! array do = realizar realice realizo realizamos realizaremos hacer hice hare hacemos hicimos haremos efectuar efectuarse efectuaremos efectuamos hago hagamos puedo
 
@@ -71,3 +71,5 @@
 ! array buy= comprar|compro|compre|comprare
 
 ! array exclusive= exclusivo exclusivos exclusiva exclusivas exclusivamente
+
+! array card= tarjeta tarjetas master|master card|visa signature|mastercard black|visa|infinite

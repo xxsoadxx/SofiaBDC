@@ -115,6 +115,26 @@
 + [*] (@need) [*] (@dolar) [*] (@exchange) [*]
 - <bot respuesta14>
 
+//--------------
+
++ [*] (@benefits) [*] (@exclusive) [*] (@card) [*]
+- <bot respuesta14>
+
++ [*] (@benefits) [*] (@card) [*] (@exclusive) [*]
+- <bot respuesta14>
+
++ [*] (@card) [*] (@benefits) [*] (@exclusive) [*]
+- <bot respuesta14>
+
++ [*] (@card) [*] (@exclusive) [*] (@benefits) [*]
+- <bot respuesta14>
+
++ [*] (@exclusive) [*] (@benefits) [*] (@card) [*]
+- <bot respuesta14>
+
++ [*] (@exclusive) [*] (@card) [*] (@benefits) [*]
+- <bot respuesta14>
+
 //equivalent valor dolar dolar premio
 + [*] (@equivalent) [*] (@dolar) [*]
 - <bot respuesta13>
@@ -375,5 +395,3 @@
 + [*] (@valid) [*] (@when) [*]
 - <bot respuesta29>
 
-+ [*]
-- Unknown
