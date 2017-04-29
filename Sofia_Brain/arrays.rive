@@ -1,287 +1,46 @@
-! array malenoun   = hombre caballero chico pibe flaco nene
+! array travelsky= travelsky|travel|sky|skytravel|tarjeta|tarjetas|con ella|con ellas|travelclub|travel club|clubtravel|club travel
 
-! array femalenoun = mujer chica dama piba flaca nena 
+! array do = realizar realice realizo realizamos realizaremos hacer hice hare hacemos hicimos haremos efectuar efectuarse efectuaremos efectuamos hago hagamos puedo
 
-! array mennoun    = hombres caballeros chicos pibes flacos nenes
+! array what = que es|que consiste|basa que seria|que|consistiria|basaria|refereria|refiere|referirse|que debe|que me sirve|que sirve|que
 
-! array womennoun  = mujeres chicas damas pibas flacas nenas
+! array equivalent= equivale|asemeja|similar|igual|cercano|equivalencia|equivalencias
 
-! array lol        = lol jaja ja jajaja haha hahaha
+! array dolar= dolar dolares
 
-! array colors     = blanco negro naranja rojo azul verde amarillo cyan fuchsia gris grey marron turquoise rosado purpura dorado plateado plata
-
-! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|quisioera|desearia|necesitaria|precisaria|cual es|indicar
-
-! array register    = nuevo|nuevos|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar|inscribir|nvo|ingresado|creando|crear|agrega|creo|crea|anexar|se ingresa|poner|insertarlas|insertar|pongo|crean
-
-! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo|autorizado|autoriada|autorizadas|autoriza|apruebo|aprueban
-
-! array consortiumbank = banco consorcio|consorcio bancos|bancos consorcios|bancos consorcio
-
-! array activate    = activar|activo|activando|activarlo|activarla|activarlos|activarlas|habilitar|habilitarlos|habilitarlo|habilitarlas|habilitarla|habilitando|activan
-
-! array beneficiary = destinarios|destinarias|destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas|nombre|personas ingresadas en la nomina|persona ingresada en la nomina|personas ingresadas en la nomina|persona que esta en la nomina|personas que estan en la nomina|personas que estan ingresadas en la nomina|persona que esta ingresada en la nomina|destinario|destinaria|personas para ingresar|persona para ingresar|empleados|empleado|empleada|empleadas|trabajadores|trabajadoras|trabajador|trabajadora|asalariado|asalariada|asalariadas|asalariados|laburante|laburantes|laburador|cuenta nueva|cuentas nuevas|nuevas cuentas|nueva cuenta
+! array dolarprize= dolar premio|dolares premio|dolar premios|dolares premios
 
 ! array welcome     = hay alguien|hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas|saludo|saludos|que tal|alo|buenos dias|hi
 
-! array thanks      = gracias|muchas gracias|listo gracias
+! array understood = gracias|perfecto|listo|ok|bien|entendido
 
-! array help        = help|auxilio|necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias|ayudar|asesoren|asesoria|asesore
+! array no          = no nah nope no none na negativo
 
 ! array yes         = si|sii|sabelo|ok|dale|afirmativo|dale gas|encajale|metele|siii|bueno|listo|perfecto
 
-! array no          = no nah nope no none na 
-
-! array cant        = no puedo|no estoy pudiendo lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no pude|no pudimos lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no lo puedo|no estoy pudiendo|no pude|fracase|no lo logre|no logro|no logre|no lo consegui|no estoy consiguiendo|no lo estoy consiguiendo|no estoy logrando|no lo estoy logrando|no me es posible|no me deja|no me permite|no me estaria permitiendo|no me permitiria|no me permitio|no me esta permitiendo|no permite|no permitio
-
-! array recover     = recuperar|restaurar|restauro|recuperaria|recupere|recuperare|restaurare|restauraria|recobrar|restablecer|recobrare|restablecere|restablezco|restableci
-
-! array authcode    = codigo|codigo de autorizacion|codigo autorizacion|codigos|correo de confirmacion|correos de confirmacion|codigo de activacion|codigo de confirmacion|codigos de activacion|correos de activacion
-
-! array arrivenot   = no me llego|no llego|no arrivo|no me arrivo|no recibi|no lo tengo|no lo recibi|no tengo|no lo veo|no me estaria arrivando|no me estaria llegando|no estaria llegando|no estaria arrivando|no obtuve|no lo obtuve|no me ha llegado|no les ha llegado|no le ha llegado
-
-! array try         = intentando|intentandolos|tratando|reiterando|probando|reintentando
-
-! array change        = cambiar|modificar|alterar|modificacion|actualizar|cambie|modifique|altere|actualize|actualice|actualizacion|modificacion|alteracion
-
-! array mail          = email|mail|correo electronico|e-mail|e mail|casilla|correo|gmail|hotmail|e.mail
-
-! array upload = cargar|cargo|subir|enviar|cargue|subi|subimos|subo|cargamos|enviamos|envie|subiria|cargaria|enviaria|mandar|mandarle|registro|pagar|pago|pagos|subiendo|carga|envio
-
-! array file   = archivo|archivos|planilla|planillas|documento|documentos|nomina|nominas|transferencia masiva|transferencias masivas|anticipos|anticipo|nomima|a la vez
-
-! array program = programar|agendar|agendare|programare|planear|planificar|planificaria|programaria|agendaria|programado|agendado|programados|agendados|planificado|programo|programa|programas|planee|agendo|programada|reutilizar|reutilizarlas|reutilizarlos
-
-! array future= mañana|otro dia|futuro
-
-! array manual = manualmente|manual|casero
-
-! array expire = caduco expiro caduca expira vencio vencida expirada caducada caducado vencimiento vencido
-
-! array get = descargar bajar consultar consulte obtener obtengo saco sacar saque consigo conseguir adquiero adquirir adquiere adquiera recibo recibir recibire recibira tener
-
-! array info = informacion|reporte|aclarar|aclaracion|averiguar|indagar|indagacion|averiguacion|verificar|verificacion
-
-! array view = veo|aparece|aparecen|aparce|se ve|se ven|visualiza|visualizar|visualizan|visualizarlas|mostrando|muestra|apareciendo|visualizando|ver|verlas|verla|aprecer|visualizo|muestran|donde encuentro
-
-! array warnings = observaciones|alertas|observacion|alerta|alerto|aviso|avisa|advertencia|comentario|nota|alertas|comentarios|advertencias|notas|motivo del rechazo|triangulo amarillo|triangulos amarillos|triangulo amarillos|triangulos amarillo
-
-! array emptyalias = falta de alias|alias cuenta vacia|alias no existe|alias no encontrado|alias vacio|alias vacido|falta alias|alias de cuenta vacio|alias incorrecto|alias esta incorrecto|alias esta incorrecta|falta el alias|alias de cuenta vacia
-
-! array delete = eliminar eliminacion eliminare eliminando elimino eliminaria elimine borrar borro borraria borre borrando anulo anular anulacion eliminan
-
-! array detail= detalle detalles detallado detallada detallando detallaria detallare
-
-! array alreadypay = ya pago|ya pague|ya pagos|ya paga|ya pagada|ya pagado|ya pagadas|ya pagados|ya pagas
-
-! array  notfound=no se ve|no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron|no esta apareciendo|no encunetro|solo veo|no se encuentran|no se encuentra|desaparecen|no se puede visualizar|no se pueden visualizar|no se visualiza|no se visualizan|aun esta en proceso|no se donde esta|no puedo verla|no puedo verlo|no puedo verlas|no puedo verlos|no me llega|no me llegan|no me llego|no se donde quedo|no se donde quedaron|nose donde quedo|nose donde quedaron|no me sale
-
-! array sign=firmar firman firmaron firma firmas firmarla
-
-! array afterload=luego de cargarla|luego de cargar|luego de cargarlo|luego de procesar|luego de procesarla|luego de procesarlo|el lunes|el martes|el miercoles|el jueves|el viernes|el sabado|el domingo
-
-! array problems=problemas|problema|dificultad|dificultades|complicar|complicacion|complicaciones|contratiempo|contratiempos|inconveniente|inconvenientes|aprieto|aprietos|ayuda urgente|urgente|no se autoriza
-
-! array multipass = pinpass|multipass|multipas|digipass|digipas|dispositivo|multi pass|multi pas|claves digitales|clave digital|claves digital
-
-! array do = realizar realice realizo realizamos realizaremos hacer hice hare hacemos hicimos haremos efectuar efectuarse efectuaremos efectuamos hago hagamos
-
-! array transfers =transferencia transfiero transferencias transferimos transferiremos transferir transferi traspaso traspase traspasamos traspasemos transfiere trasnferencia trasnfiere trasnferencias
-
-! array foundmonex= fondos monex|fondo monex|monex fondo|monex fondos
-
-! array amount = montos monto importe importes total totales suma sumas coste costes
- 
-! array max = maximo|maximos|mas alto|mas altos|tope|topes|hasta que|hasta cuanto
-
-! array mean = significan|significa|significado|significados|definiciiones|definicion|definciones|concepto|conceptos|quiere decir
-
-! array initials = sigla|siglas|inicial|iniciales|abreviatura|abreviaturas
-
-! array prorecpag = pag|rec|pro|prorecpag|prorec pag|pro recpag|pro rec pag|pro rec pag|pro rec pag|prorec pag|pro recpag|pag rec pro
-
-! array forward= adelante posterior siguiente|hasta hoy|hasta el dia de hoy
-
-! array recent=acabo|reciente|recientemente|hace poco|recientes|actual|actualmente
-
-! array repeat=repetida|repetido|repetir|repitio|reiterar|reitera|reiterado|duplicado|duplicada|duplicar|duplica|reiterada
-
-! array error=error errores equivocacion equivocada equivocado falla fallar fallido problema problemas erronea erro
-
-! array composition= estructura|estructurado|estructuras|estructurar|composicion|composicionado|componer|compone|composiciones|esqueleto|esqueletos
-
-! array value= valor|valores|dato|datos|data|informacion|info|compone
-
-! array first= primer|primero|primera|primeros|primeras|1|1eros|1er|a|cuenta cargo
-
-! array second= segunda|segundas|segundo|segundos|2|1dos|2do|b|cuenta destino
-
-! array third= tercer|terceros|tercera|3|3eras|3ero|c|banco destino
-
-! array fourth= cuarta|cuarto|cuartas|cuartos|4to|4tos|4|d|rut beneficiario
-
-! array five= cinco|quinta|quinto|quintas|quintos|5to|5tos|5|e|dig verif|digito verificador
-
-! array six= seis|sexta|sextas|6ta|6tas|6|f|nombre beneficiario
-
-! array seven= siete|septima|sietes|septimas|7ta|7tas|7|g|monto
-
-! array eight= ocho|octavo|octavos|octavas|octava|8vo|7va|8|h|factura-boleta|factura boleta
-
-! array nine= nueve|noveno|nueves|novenos|9vo|9va|9|i|orden de compra
-
-! array ten= diez|decimo|dieces|decima|decimos|decimas|10ma|10mo|10|j|tipo pago|tipo de pago
-
-! array eleven= once|onces|undecimo|undecimos|onceavo|onceavos|11mo|11mos|11|k|mensaje
-
-! array twelve= doce|doces|duodecimo|doceavo|decimosegundo|12vo|12vos|12|l|email
-
-! array thirdteen= trece|treces|treceavo|treceavos|decimotercero|decimoterceros|decimotercer|13vo|13vos|13|m|cuenta inscrita como
-
-! array contact= contacto|contactar|hablar|comunicar|comunicarme|contactarme|contacteme
-
-! array column= columna|columnas|col
-
 ! array howyoufeel= como estas|como te sientes|todo bien|todo en orden|como tu estas|como te va|como va
-
-! array myname= mi nombre es|me llamo|me dicen|me llaman
 
 ! array namebot= nombre|llame|diga|llamas|quien eres|quien sos|que eres|que sos
 
-! array goodbye= adios|hasta luego|me voy|chau|me despido|nos vemos|hasta pronto|hasta la vuelta|bye
+! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|quisioera|desearia|necesitaria|precisaria|cual es|indicar|cuanto es
 
-! array after = luego|despues|posteriormente|ulteriormente|mas tarde
+! array help        = help|auxilio|necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias|ayudar|asesoren|asesoria|asesore
 
-! array beneficiaryMessage = mensaje de destinatario|mensaje de destinatarios|mensajes de destinatarios
+! array myname= mi nombre es|me llamo|me dicen|me llaman
 
-! array validate = validando|valide|valida|validaba|validar|validacion|validan
+! array contact= contacto|contactar|hablar|comunicar|comunicarme|contactarme|contacteme
 
-! array payprocess = en proceso de pago|proceso de pago
+! array info = informacion|reporte|aclarar|aclaracion|averiguar|indagar|indagacion|averiguacion|verificar|verificacion
 
-! array pay= pago pagos pagado pagados paga pagada pagadas pagas saldado
-! array payment= pago|pagar|pague|pagos
-
-! array past = ayer|antes de ayer|otro dia|hace unos dias|semana pasada|dias atras|pasado|atras|anterior|hace dias|vieja|hace un tiempo|antiguos|antiguo|viejas|vieja|rango de fechas|rango de fecha
-
-! array month = enero|febrero|marzo|abril|mayo|junio|julio|agosto|setiembre|septiembre|octubre|noviembre|diciembre|feb
-
-! array zero = 0|cero|zero|nulo|vacio|valor 0|sin valor|no tiene valor|no tienen valores|sin valores
-
-! array understood = gracias|perfecto|listo|ok|bien
-
-! array owner=  apoderado|apoderados|apodera|dueno|propietarios|propietario|propretaria|propretarias
-
-! array opening = apertura|abrir|abriendo|abro
-
-! array account = cuenta|cuentas|cuentita|cuentitas|cta|ctas
-
-! array workers = empleados|empleado|empleada|empleadas|trabajadores|trabajadoras|trabajador|trabajadora|asalariado|asalariada|asalariadas|asalariados|laburante|laburantes|laburador
-
-! array what = que es|consiste|basa|que seria|consistiria|basaria|refereria|refiere|referirse|que debe
-
-! array format= formato|formatos|extension|extensiones|extencion|extenciones|estension|estensiones|tipo de archivo|tipo debe ser|tipos de arhivos|tipos debe ser|tipos deben ser|xls|excel|csv|escel|exel
-
-! array backup= backup|respaldo|respaldos|backups|respaldar
-
-! array offline= offline|sistema no disponible|sistema offline|el sistema esta caido|el sistema esta muerto|el sistema no responde|caido el sistema|cayo el sistema|error 500|servicio no estaba disponible|servicio no disponible|servicio no se encuentra disponible|servicio no esta disponible
-
-! array motive= motivo|motivos|razones|razon|causa|causas
-
-! array reject= rechazado|rechazo|rechazar|rechazada|denegada|desaprobada|no procesada|no procesado|no procesados|rechazaron|no procesadas|rechazos|incorrecta|incorrecto|incorrectas|incorrectos|rechazan|rechazadas|rechazados|devuelta|devolucion
-
-! array dontknow= no se|no conozco|desconozco|no tengo idea|ni idea|no entiendo
-
-! array badregister = mal registrado|mal ingresado|mal anadidos|mal registrados|mal ingresados|mal anadido|mal ingresadio
-
-! array salary= sueldo|remuneraciones|remuneracion|sueldo|salario|sueldos|salarios
-
-! array where= donde|adonde|en donde|en que lugar|en que ubicacion|en que lugares|en que ubicaciones
-
-! array works= funciona opera trabaja trabajan operan funcionan 
-
-! array paymentservices = pagos y servicios|pago y servicio|pagos y servicio|pago y servicios
-
-! array paymentpanel = panel de pago|panel de pagos|paneles de pago|paneles de pagos
-
-! array nomoney= sin saldo|saldo 0|no tengo saldo|no aparece saldo|no figura saldo|sin saldos|saldos 0|no tengo saldos|no aparece saldo
-
-! array cost = cuesta|sale|vale|costaria|saldria|valdria|costo|precio|valor|costos
-
-! array automated= automatico|automatica|automaticos|automaticas|automaticamente
-
-! array again= otra vez|de vuelta|de nuevo|nuevamente|denuevo|devuelta
-
-! array validity= validez|valida|cuanto duran|cuanto es su duracion|su duracion|vigencia|vigente
-
-! array find = encuentro|encontro|encontrar|hallo|hallar|hallamos|encontramos|localizar|localizamos|ubicar|ubicamos|ubicacion
-
-! array sametime= a la vez|en el mismo tiempo|a la misma vez|en este momento|en el mismo momento|en este instante
-
-! array pending = pendiente|pendientes
-
-! array tosign= por firmar
-
-! array who= quien es|quien son|quienes son|quienes es|quien son
-
-! array receivedpayment= pago recibido|pagos recibidos|pago recibidos|pagos recibido|pagos que me han efectuados|pagos que he recibido
-
-! array again= otra vez|de vuelta|de nuevo|nuevamente|denuevo|devuelta
-
-! array user= usuario usuaria usuarios usuarias
-
-! array novalidate = no valida|aun esta en validacion|sigue en validacion|aun no valida|no se valida|no esta valida|no disponible|en revision|no validan|no esta disponible
-
-! array massive= masivo|masivos|masiva|masivas
-
-! array filestate= estado de nomina|estados de nominas|estado de nominas|estados de nomina|valor de nomina|valor de una nomina
-
-! array rutaccount= cuenta rut|cuentas rut|rut
-
-! array delay= demora|demoran|tarda|tardan|tardar|demorar|demorando|pasado varios minutos|pasado minutos|pasados varios minutos|pasados minutos
-
-! array why= por que|porque|xq|porq|por q|porke|por ke|pq
-
-! array inprocess= en proceso|en procesos|procesando
-
-! array beats= superar|supera|exede|excede|exceder|pasa|pasar|aventajar|aventaja
-
-! array redcheck= tilde rojo|check rojo|tic rojo|tick rojo|nike rojo|visto rojo
-
-! array today= hoy
-
-! array paymenttype= tipo de pago|tipos de pago|tipos de pagos|tipo pago|tipos pagos|tipo pagos|tipos pago
-
-! array howlong = cuanto demora|cuanto tarda|cuanto se demora|cuanto se tarda|cuanto demoraria|cuanto tardaria|cuanto se tardaria|cuanto se demoraria|cuanto dura|duracion|cuanto tiempo
-
-! array waiting = esperando|aguardando|aguardo|espero|esperar|aguardar|aguantar|permanecer
-
-! array statebank= banco estado|bancoestado
-
-! array filedif = nomina diferida|nominas diferidas|nomina diferidas|nominas diferida
-
-! array available= disponible disponibles utilizable utilizables libres libre vacante vacantes
-
-! array ticket= tickets ticket comprobante comprobantes certificado certificados
-
-! array expire = caduco expiro caduca expira vencio vencida expirada caducada caducado vencimiento vencido
-
-! array schedule= hasta que hora|horario|horarios
-
-! array days = lunes martes miercoles jueves viernes sabado domingo
-
-! array fix = corregir|arreglar|arreglan|arreglen|corrija|corrige
-
-! array cancel = cancelar|cancelo|cancela|cancelaria|cancelando
-
-! array copy= copiar|copia|copias|copio|copiando|copiaria|copiarian
-
-! array use= usar|uso|usaria|se usan|se usa
+! array value= valor|valores|vale
 
 ! array service = servicio|servicios
 
-! array notnumericamount = monto no numerico|montos no numericos|montos no numerico|monto no numericos|monto no es numerico|montos no es numericos|monto no son numericos|no es numero
+! array exchange= canjear canje canjes cambiar trocar transformar canjeo canjearlo canjearlos
 
-! array contract= integrar contratar contratan contratamos contratariamos adquirir adquirimos
+! array emitter= emisor|emisores|prestador|prestadores|dan|ofrecen|brindan|ofrece|brinda
 
+! array goodbye= adios|hasta luego|me voy|chau|me despido|nos vemos|hasta pronto|hasta la vuelta|bye
 
-//! array filerow = registro|linea|persona|beneficiario|destinatario
+! array balance= balance|balances|saldo|saldos|monto|montos|resto|remanente|sobrante
+
