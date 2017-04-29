@@ -58,22 +58,22 @@
 + [*] (@dolarprize) [*] (@value) [*] (@dolar) [*]
 - <bot respuesta13>
 
-+ [*] (@exchange) [*] (@dolar) [*] (en que puedo) [*]
++ [*] (@exchange) [*] (@dolar) [*] (@need) [*]
 - <bot respuesta14>
 
-+ [*] (@exchange) [*] (en que puedo) [*] (@dolar) [*]
++ [*] (@exchange) [*] (@need) [*] (@dolar) [*]
 - <bot respuesta14>
 
-+ [*] (@dolar) [*] (@exchange) [*] (en que puedo) [*]
++ [*] (@dolar) [*] (@exchange) [*] (@need) [*]
 - <bot respuesta14>
 
-+ [*] (@dolar) [*] (en que puedo) [*] (@exchange) [*]
++ [*] (@dolar) [*] (@need) [*] (@exchange) [*]
 - <bot respuesta14>
 
-+ [*] (en que puedo) [*] (@exchange) [*] (@dolar) [*]
++ [*] (@need) [*] (@exchange) [*] (@dolar) [*]
 - <bot respuesta14>
 
-+ [*] (en que puedo) [*] (@dolar) [*] (@exchange) [*]
++ [*] (@need) [*] (@dolar) [*] (@exchange) [*]
 - <bot respuesta14>
 
 //equivalent valor dolar dolar premio
@@ -116,6 +116,12 @@
 + [*] (@travelsky) [*] (@what) [*]
 - <bot respuesta10>
 
++ [*] (@info) [*] (@travelsky) [*]
+- <bot respuesta10>
+
++ [*] (@travelsky) [*] (@info) [*]
+- <bot respuesta10>
+
 + [*] (@need) [*] (@info) [*]
 - <bot respuesta11>
 
@@ -128,16 +134,22 @@
 + [*] (@dolar) [*] (@what) [*]
 - <bot respuesta16>
 
-+ [*] (@emmiter) [*] (@travelsky) [*]
++ [*] (@info) [*] (@dolar) [*]
+- <bot respuesta16>
+
++ [*] (@dolar) [*] (@info) [*]
+- <bot respuesta16>
+
++ [*] (@emitter) [*] (@travelsky) [*]
 - <bot respuesta17>
 
-+ [*] (@travelsky) [*] (@emmiter) [*]
++ [*] (@travelsky) [*] (@emitter) [*]
 - <bot respuesta17>
 
-+ [*] (@emmiter) [*] (@service) [*]
++ [*] (@emitter) [*] (@service) [*]
 - <bot respuesta17>
 
-+ [*] (@service) [*] (@emmiter) [*]
++ [*] (@service) [*] (@emitter) [*]
 - <bot respuesta17>
 
 + [*] (@balance) [*] (@dolar) [*]
@@ -241,10 +253,10 @@
 
 //QUE BENEFICIOS
 
-+ [*] (@what) [*] (@benefitss) [*]
++ [*] (@what) [*] (@benefits) [*]
 - <bot respuesta27>
 
-+ [*] (@benefitss) [*] (@what) [*]
++ [*] (@benefits) [*] (@what) [*]
 - <bot respuesta27>
 
 + [*] (@what) [*] (@preferred) [*]
@@ -252,6 +264,15 @@
 
 + [*] (@preferred) [*] (@what) [*]
 - <bot respuesta27>
+
++ [*] (@need) [*] (@benefits) [*]
+- <bot respuesta27>
+
++ [*] (@benefits) [*] (@need) [*]
+- <bot respuesta27>
+
+
+
 
 //PASAJE EN CUOTAS
 
