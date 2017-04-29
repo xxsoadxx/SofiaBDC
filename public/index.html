@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+        <style>
+            .chatHead{
+                cursor:pointer;
+                background-color: rgb(255, 116, 4);
+                width: 320px;
+                height: 30px;
+                border-top-left-radius: 9px;
+                border-top-right-radius: 9px;
+                position: absolute;
+                bottom: 0px;
+                right: 50px;
+            }
+            .iconHead{
+                color: #FFF;
+                font-size: 26px;
+                margin-left: 10px;
+            }
+            .textHead{
+                color: #FFF;
+                margin-left: 8px;
+                height: 30px;
+                vertical-align: text-bottom;
+            }
+            .iconOpenHead{
+                color: #FFF;
+                font-size: 14px;
+                margin-right: 10px;
+                margin-top: 8px;
+            }
+            .setRight{
+                right: 0px;
+                position: inherit;
+            }
+            .chatBody{
+                position: absolute;
+                bottom: 0px;
+                width: 320px;
+                height: 375px;
+                right: 50px;
+                display:none;
+                background-color:#FFF;
+                
+                border: 1px solid rgb(255, 116, 4);
+            }
+            .enviar{
+                bottom: 8px;
+                position: inherit;
+                right: 8px;
+                background-color: #4980ab;
+                color: #FFF;
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                padding-left: 9px;
+            }
+            .msgInput{
+                border: none;
+                background-color: transparent;
+                border-bottom: 2px solid #BBB7BC;
+                width: 100%;
+            }
+            .bar {
+            position: relative;
+            display: block;
+            }
+
+            .bar:before,
+            .bar:after {
+            content: '';
+            height: 2px;
+            width: 0;
+            bottom: 1px;
+            position: absolute;
+            background: #4980ab; 
+            transition: 0.2s ease all;
+            }
+
+            .bar:before {
+            left: 50%;
+            }
+
+            .bar:after {
+            right: 50%; 
+            }
+
+            .mui-form-control:focus {
+            border-color: transparent;
+            }
+
+            .mui-form-control:focus ~ .bar:before,
+            .mui-form-control:focus ~ .bar:after {
+            width: 50%;
+            }
+            .mui-form-group{
+                position: inherit;
+                bottom: 16px;
+                width: 235px;
+                left: 10px;
+            }
+
+            /** ios1-ios6 bubbles **/
+            .bubble {
+            box-sizing: border-box;
+            float: left;
+            width: auto;
+            max-width: 80%;
+            position: relative;
+            clear: both;
+            background: #FFF;
+            background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.15, rgba(255, 255, 255)), color-stop(1, rgba(255, 255, 255)));
+            background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
+            background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
+            background-image: -ms-linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
+            background-image: -o-linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
+            background-image: linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='rgba(255, 255, 255)', endColorstr='rgba(255, 255, 255)');
+            border: solid 1px rgb(255, 116, 4);;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            /*-webkit-box-shadow: inset 0 8px 5px rgba(255,255,255), 0 1px 2px rgba(0,0,0,0.2);
+            -moz-box-shadow: inset 0 8px 5px rgba(255,255,255), 0 1px 2px rgba(0,0,0,0.2);
+            box-shadow: inset 0 8px 5px rgba(255,255,255), 0 1px 2px rgba(0,0,0,0.2);*/
+            margin-bottom: 20px;
+            padding: 6px 20px;
+            color: #000;
+            /*text-shadow: 0 1px 1px rgba(255,255,255);*/
+            word-wrap: break-word;
+            }
+            .bubble:before, .bubble:after {
+            border-radius: 20px / 5px;
+            content: '';
+            display: block;
+            position: absolute;
+            }
+            .bubble:before {
+            border: 10px solid transparent;
+            border-bottom-color: rgba(0,0,0,0.5);
+            bottom: 0px;
+            left: -7px;
+            z-index: -2;
+            }
+            .bubble:after {
+            border: 8px solid transparent;
+            border-bottom-color: rgb(255, 116, 4);; /* arrow color */
+            bottom: 1px;
+            left: -5px;
+            }
+            .bubble-alt {
+            float: right;
+            }
+            .bubble-alt:before {
+            left: auto;
+            right: -7px;
+            }
+            .bubble-alt:after {
+            left: auto;
+            right: -5px;
+            }
+            .bubble p {
+            font-size: 1.4em;
+            }
+            .yellow {
+			background-color:rgb(255, 116, 4) !important;
+            background: rgb(255, 116, 4)  !important;
+            background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.15, rgba(255, 255, 255)),color-stop(1, rgba(255, 255, 255)));
+            background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
+            background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
+            background-image: -ms-linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
+            background-image: -o-linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
+            background-image: linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='rgba(255, 255, 255)', endColorstr='rgba(255, 255, 255)');
+            }
+            .yellow:after {
+            border-bottom-color: #rgb(255, 116, 4);;
+            }
+            .conversation{
+                width: 100%;
+                height: 305px;
+                overflow: scroll;
+    	        overflow-x: hidden;
+                padding-left: 13px;
+                padding-right: 13px;
+                padding-top: 10px;
+                background-image:url(fondo.jpg);
+                background-repeat:no-repeat;
+                background-size: cover;
+                border-bottom: 1px solid #E2DDE3;
+            }
+            #container::-webkit-scrollbar {
+                width: 0 !important;
+            }
+            .btn:hover, .btn:focus:hover {
+                color: #4980ab;
+                background-color:#FFF;
+                text-decoration: none;
+                border:1px solid #4980ab;
+            }
+            .btn.focus, .btn:focus {
+                color: #FFF;
+                background-color:#4980ab;
+                text-decoration: none;
+                border:1px solid #4980ab;
+            }
+
+            .frame {
+                border:none;
+                width:100%;
+                height:100%;
+            }
+
+            html, body {
+                width:100%;
+                height:100%;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <iframe class="frame" src="https://www.bci.cl/empresas/"></iframe>
+
+        <div class="chatHead" onclick="chatBox()">
+            <span><i class="fa fa-comments iconHead" aria-hidden="true"></i></span>
+            <span class="textHead" >Atención al Cliente</span>
+            <span class="setRight"><i class="fa fa-chevron-up iconOpenHead" id="arrow" aria-hidden="true"></i></span>
+        </div>
+        <div class="chatBody">
+            <div class="conversation" id="container">
+                <div class="bubble bubble-alt "><p style="font-size: 16px;color: rgb(255, 116, 4);;margin-bottom: 0px;">Hola, ¿En que te puedo ayudar?</p></div>
+            </div>
+            <div class="mui-form-group">      
+                <input id="msg" type="text" class="msgInput mui-form-control" placeholder="Escribe un mensaje..." />
+                <span class="bar"></span>
+            </div>
+            
+            <button id="send" onclick="sendMsg()" type="button" class="btn enviar" ><i style="font-size: 23px;" class="fa fa-paper-plane" aria-hidden="true"></i><br></button>
+        </div>
+
+
+
+
+
+        <script>
+            var Opened = false;
+            function chatBox() {
+                console.log("chatBox");
+                if(Opened === false){
+                    console.log("false");
+                    $('.chatHead').css( "bottom", "375px", 'important');
+                    $( "#arrow" ).removeClass( "fa-chevron-up" ).addClass("fa-chevron-down");
+                    $('.chatBody').css( "display", "block", 'important' );
+                    Opened = true;
+                }else{
+                    if(Opened === true){
+                        console.log("true");
+                        $('.chatHead').css( "bottom", "0px", 'important' );
+                        $( "#arrow" ).removeClass( "fa-chevron-down" ).addClass("fa-chevron-up");
+                        $('.chatBody').css( "display", "none", 'important' );
+                        Opened = false;
+                    }
+                }
+                
+            } 
+
+            function sendMsg(){
+
+                var text = $("#msg").val();
+                if(text !== ''){
+                 $("#msg").val('');
+                 $("#container").append('<div class="bubble yellow"><p style="font-size:16px;margin-bottom: 0px;color:#FFF;">'+text+'</p></div>');
+                
+                 console.log("sendMsg");
+                 console.log("text = " + text);
+
+                var egPayload = {
+                    "username": "soandso",
+                    "message": text,
+                    "vars": {
+                        "name": "Soandso"
+                    }
+                };
+
+                $.ajax({
+                    url: "http://dec01.cloudapp.net/SofiaChat/reply",
+                    type: "POST",
+                    dataType: "JSON",
+                    contentType: 'application/json; charset=utf-8',
+                    data: JSON.stringify(egPayload),
+                    beforeSend: function () {
+                            console.log("beforeSend");
+                    },
+                    success: function (res) {
+                    console.log("res = " , res);
+                        $("#container").append('<div class="bubble bubble-alt "><p style="font-size: 16px;color: rgb(255, 116, 4);;margin-bottom: 0px;">'+res.reply+'</p></div>');
+                        $("#container").animate({ scrollTop: $('#container').prop("scrollHeight")}, 1000);
+                    },
+                    
+                });
+                }
+            }
+            $(document).keypress(function(e) {
+                if(e.which == 13) {
+                    sendMsg();
+                }
+            });
+        </script>
+    </body>
+
+</html>
