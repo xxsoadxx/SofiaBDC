@@ -24,7 +24,7 @@
 
 ! array namebot= nombre|llame|diga|llamas|quien eres|quien sos|que eres|que sos
 
-! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|quisioera|desearia|necesitaria|precisaria|cual es|indicar|cuanto es
+! array need        = no estan|tengo que|debo|puedo|pueden|necesito|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|quisioera|desearia|necesitaria|precisaria|cual es|indicar|cuanto es
 
 ! array help        = help|auxilio|necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias|ayudar|asesoren|asesoria|asesore
 
@@ -67,3 +67,7 @@
 ! array valid = valido|valida|validez|validos
 
 ! array when = cuando
+
+! array buy= comprar|compro|compre|comprare
+
+! array exclusive= exclusivo exclusivos exclusiva exclusivas exclusivamente

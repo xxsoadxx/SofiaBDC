@@ -19,6 +19,45 @@
 + [*] (@do) [*] (@travelsky) [*] (@what) [*]
 - <bot respuesta12>
 
+//quiero canjear mis dolares
++ [*] (@need) [*] (@exchange) [*] (@dolar) [*]
+- <bot respuesta15>
+
++ [*] (@need) [*] (@dolar) [*] (@exchange) [*]
+- <bot respuesta15>
+
++ [*] (@exchange) [*] (@need) [*] (@dolar) [*]
+- <bot respuesta15>
+
++ [*] (@exchange) [*] (@dolar) [*] (@need) [*]
+- <bot respuesta15>
+
++ [*] (@dolar) [*] (@exchange) [*] (@need) [*]
+- <bot respuesta15>
+
++ [*] (@dolar) [*] (@need) [*] (@exchange) [*]
+- <bot respuesta15>
+
+//quiero canjear mis dolares
++ [*] (@need) [*] (@info) [*] (@benefits) [*]
+- <bot respuesta27>
+
++ [*] (@need) [*] (@benefits) [*] (@info) [*]
+- <bot respuesta27>
+
++ [*] (@benefits) [*] (@need) [*] (@info) [*]
+- <bot respuesta27>
+
++ [*] (@benefits) [*] (@info) [*] (@need) [*]
+- <bot respuesta27>
+
++ [*] (@info) [*] (@benefits) [*] (@need) [*]
+- <bot respuesta27>
+
++ [*] (@info) [*] (@need) [*] (@benefits) [*]
+- <bot respuesta27>
+
+
 
 //equivalent valor dolar dolar premio
 + [*] (@equivalent) [*] (@dolar) [*] (@dolarprize) [*]
@@ -270,6 +309,46 @@
 
 + [*] (@benefits) [*] (@need) [*]
 - <bot respuesta27>
+
+//quiero canjear mis dolares
++ [*] (@info) [*] (@benefits) [*]
+- <bot respuesta27>
+
++ [*] (@benefits) [*] (@info) [*]
+- <bot respuesta27>
+
+
+//beneficios exclusivos
++ [*] (@benefits) [*] (@exclusive) [*]
+- <bot respuesta41>
+
++ [*] (@exclusive) [*] (@benefits) [*]
+- <bot respuesta41>
+
+//quiero canjear mis dolares
++ [*] (@buy) [*] (@tickets) [*]
+- <bot respuesta40>
+
++ [*] (@tickets) [*] (@buy) [*]
+- <bot respuesta40>
+
+//beneficio pasajes
++ [*] (@benefits) [*] (@tickets) [*]
+- <bot respuesta42>
+
++ [*] (@tickets) [*] (@benefits) [*]
+- <bot respuesta42>
+
+//quiero canjear mis dolares
++ [*] (@need) [*] (@exchange) [*]
+- <bot respuesta27>
+
++ [*] (@exchange) [*] (@need) [*]
+- <bot respuesta27>
+
+
+
+
 
 
 
