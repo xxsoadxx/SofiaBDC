@@ -19,9 +19,19 @@ db = db.connect('./db', ['data','log']);
 // Create the bot.
 var bot = new RiveScript({debug: false});
 
+var botBackground = new RiveScript({debug: false});
 
-bot.loadDirectory("./Sofia_Brain", success_handler, error_handler);
 
+
+bot.loadDirectory("./Sofia_Brain", success_handler_back, error_handler);
+
+botBackground.loadDirectory("./Background_Brain", success_handler, error_handler);
+
+function success_handler_back (loadcount) {
+	console.log("Load #" + loadcount + " completed!");
+
+	botBackground.sortReplies();
+}
 
 
 function success_handler (loadcount) {
@@ -42,8 +52,8 @@ function success_handler (loadcount) {
 	app.get("*", showUsage);
 
 	// Start listening.
-	app.listen(2001, function() {
-		console.log("Listening on http://localhost:2001");
+	app.listen(2002, function() {
+		console.log("Listening on http://localhost:2002");
 	});
 }
 
@@ -75,6 +85,9 @@ function getReply(req, res) {
 	// Get a reply from the bot.
 	var aux = accents(message)
 	var reply = bot.reply(username, aux, this);
+	if(reply === 'Unknown'){
+		var reply = botBackground.reply(username, aux, this);
+	}
 	var log = {
 		person:username,
 		msgin:message,

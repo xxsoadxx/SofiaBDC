@@ -7,19 +7,21 @@
     <head>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
         <style>
             .chatHead{
                 cursor:pointer;
-                background-color: rgb(255, 116, 4);
-                width: 320px;
+                background-color: #172962;
+                width: 375px;
                 height: 30px;
                 border-top-left-radius: 9px;
                 border-top-right-radius: 9px;
                 position: absolute;
                 bottom: 0px;
                 right: 50px;
+                display: none;
             }
             .iconHead{
                 color: #FFF;
@@ -45,19 +47,19 @@
             .chatBody{
                 position: absolute;
                 bottom: 0px;
-                width: 320px;
-                height: 375px;
+                width: 375px;
+                height: 400px;
                 right: 50px;
                 display:none;
                 background-color:#FFF;
                 
-                border: 1px solid rgb(255, 116, 4);
+                border: 1px solid #172962;
             }
             .enviar{
                 bottom: 8px;
                 position: inherit;
                 right: 8px;
-                background-color: #4980ab;
+                background-color: #172962;
                 color: #FFF;
                 width: 50px;
                 height: 50px;
@@ -82,7 +84,7 @@
             width: 0;
             bottom: 1px;
             position: absolute;
-            background: #4980ab; 
+            background: #172962; 
             transition: 0.2s ease all;
             }
 
@@ -114,7 +116,7 @@
             box-sizing: border-box;
             float: left;
             width: auto;
-            max-width: 80%;
+            max-width: 91%;
             position: relative;
             clear: both;
             background: #FFF;
@@ -125,7 +127,7 @@
             background-image: -o-linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
             background-image: linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
             filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='rgba(255, 255, 255)', endColorstr='rgba(255, 255, 255)');
-            border: solid 1px rgb(255, 116, 4);;
+            border: solid 1px #172962;
             -webkit-border-radius: 20px;
             -moz-border-radius: 20px;
             border-radius: 20px;
@@ -153,7 +155,7 @@
             }
             .bubble:after {
             border: 8px solid transparent;
-            border-bottom-color: rgb(255, 116, 4);; /* arrow color */
+            border-bottom-color: #172962; /* arrow color */
             bottom: 1px;
             left: -5px;
             }
@@ -172,8 +174,8 @@
             font-size: 1.4em;
             }
             .yellow {
-			background-color:rgb(255, 116, 4) !important;
-            background: rgb(255, 116, 4)  !important;
+			background-color:#172962 !important;
+            background: #172962  !important;
             background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.15, rgba(255, 255, 255)),color-stop(1, rgba(255, 255, 255)));
             background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
             background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255) 15%, rgba(255, 255, 255) 100%);
@@ -183,17 +185,17 @@
             filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='rgba(255, 255, 255)', endColorstr='rgba(255, 255, 255)');
             }
             .yellow:after {
-            border-bottom-color: #rgb(255, 116, 4);;
+            border-bottom-color: #172962;
             }
             .conversation{
                 width: 100%;
-                height: 305px;
+                height: 331px;
                 overflow: scroll;
     	        overflow-x: hidden;
                 padding-left: 13px;
                 padding-right: 13px;
                 padding-top: 10px;
-                background-image:url(fondo.jpg);
+                /*background-image:url(fondo.jpg);*/
                 background-repeat:no-repeat;
                 background-size: cover;
                 border-bottom: 1px solid #E2DDE3;
@@ -202,16 +204,16 @@
                 width: 0 !important;
             }
             .btn:hover, .btn:focus:hover {
-                color: #4980ab;
+                color: #172962;
                 background-color:#FFF;
                 text-decoration: none;
-                border:1px solid #4980ab;
+                border:1px solid #172962;
             }
             .btn.focus, .btn:focus {
                 color: #FFF;
-                background-color:#4980ab;
+                background-color:#172962;
                 text-decoration: none;
-                border:1px solid #4980ab;
+                border:1px solid #172962;
             }
 
             .frame {
@@ -224,21 +226,202 @@
                 width:100%;
                 height:100%;
             }
+            .buttons{
+                    display: inline-block;
+                    border: 1px solid #172962;
+                    width: 100%;
+                    text-align: center;
+                    height: 33px;
+                    border-radius: 9px;
+                    cursor: pointer;
+                    margin-bottom: 6px;
+            }    
+            .buttons:hover{
+                    background-color:#172962;
+            }  
+            .buttons:hover p{
+                    color:#FFF !important; 
+            }    
+            .chatbubble{
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+                background-color: #172962;
+                position: absolute;
+                bottom: 44px;
+                right: 42px;
+                border: 4px solid #FFF;
+                color:#FFF;
+                cursor: pointer;
+            }
+            .icon{
+                font-size: 55px;
+                margin-left: 18px;
+                margin-top: 16px;
+            }
+            .chatbubble:hover span{
+                    opacity:1; 
+            }   
 
+            .text{
+                background-color: #172962;
+                position: absolute;
+                right: 81px;
+                width: 165px;
+                text-align: center;
+                border-radius: 7px;
+                top: 38px;
+                border: 1px solid;
+                opacity:0; 
+            }
+            .linkTitle{
+                    color: #701c74;
+                    text-align: center;
+                    font-size: 22px;
+                    margin-bottom: -5px;
+            }
+            .linkPrice{
+                    color: #26de00;
+                    text-align: center;
+                    font-size: 22px;
+            }
+            .linkImg{
+                margin-left: auto;
+                margin-right: auto;
+                display: inherit;
+                height: 127px;
+                border-radius: 20px;
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+            }
+            .linkContainer{
+                    border: 1px solid #172962;
+                    border-radius: 20px;
+                    cursor: pointer;
+                    display: inline-block;
+                    margin-bottom: 11px;
+            }
+            
+
+.beneficios {
+    display:inline-block;
+    text-decoration:none;
+}
+    .beneficios:hover .beneficios-icon {
+    transform: scale(1);
+} 
+    .beneficios:hover span {
+    font-size: 17px;
+    color:#701c74;
+} 
+.beneficios span {
+    position: relative;
+    top: 19px;
+    left: -14px;
+    color: #ada2a2;
+}
+
+/* line 672, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+.beneficios .beneficios-icon.beneficios_menu01 {
+  background-position: 0 0; }
+  /* line 674, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+ .beneficios:hover .beneficios-icon.beneficios_menu01{
+    background-position: -90px 0; }
+
+/* line 676, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+.beneficios .beneficios-icon.beneficios_menu02 {
+  background-position: -180px 0; }
+  /* line 678, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+  .beneficios .beneficios-icon.beneficios_menu02:hover {
+    background-position: -270px 0; }
+
+/* line 680, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+.beneficios .beneficios-icon.beneficios_menu03 {
+  background-position: -360px 0; }
+  /* line 682, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+  .beneficios .beneficios-icon.beneficios_menu03:hover {
+    background-position: -450px 0; }
+
+/* line 684, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+.beneficios .beneficios-icon.beneficios_menu04 {
+  background-position: -540px 0; }
+  /* line 686, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+  .beneficios .beneficios-icon.beneficios_menu04:hover {
+    background-position: -630px 0; }
+
+/* line 688, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+.beneficios .beneficios-icon.beneficios_menu05 {
+  background-position: -720px 0; }
+  /* line 690, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+  .beneficios .beneficios-icon.beneficios_menu05:hover {
+    background-position: -810px 0; }
+
+/* line 692, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+.beneficios .beneficios-icon.beneficios_menu06 {
+  background-position: -900px 0; }
+  /* line 694, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+  .beneficios .beneficios-icon.beneficios_menu06:hover {
+    background-position: -990px 0; }
+
+/* line 696, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+.beneficios .beneficios-icon.beneficios_menu07 {
+  background-position: -1080px 0; }
+  /* line 698, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+  .beneficios .beneficios-icon.beneficios_menu07:hover {
+    background-position: -1170px 0; }
+
+/* line 700, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+.beneficios .beneficios-icon.beneficios_menu08 {
+  background-position: -1260px 0; }
+  /* line 702, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+ .beneficios .beneficios-icon.beneficios_menu08:hover {
+    background-position: -1350px 0; }
+
+/* line 704, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+.beneficios .beneficios-icon.beneficios_menu09 {
+  background-position: -1440px 0; }
+  /* line 706, /Users/csaez/Google Drive/BCH/BCH - SKY/travel-sky/source/stylesheets/all.scss */
+  .beneficios .beneficios-icon.beneficios_menu09:hover {
+    background-position: -1530px 0; }
+
+
+.beneficios-icon {
+    background: url(http://beneficios.bancochile.cl/travelsky/images/beneficios_menu.png) no-repeat top left;
+    width: 80px;
+    height: 70px;
+    float: left;
+    margin: 0 15px;
+    transform: scale(0.8);
+}
+
+
+
+	
+	
+	
         </style>
     </head>
     <body>
 
-        <iframe class="frame" src="https://www.bci.cl/empresas/"></iframe>
-
+        <iframe class="frame" src="https://login.bancochile.cl/bancochile-web/persona/login/index.html#/login"></iframe>
+        <div class="chatbubble" onclick="chatBox()">
+            <i class="fa fa-comments icon" aria-hidden="true"></i>
+            <span class="text">¿Necesitas ayuda?</span>
+        </div>
         <div class="chatHead" onclick="chatBox()">
             <span><i class="fa fa-comments iconHead" aria-hidden="true"></i></span>
             <span class="textHead" >Atención al Cliente</span>
-            <span class="setRight"><i class="fa fa-chevron-up iconOpenHead" id="arrow" aria-hidden="true"></i></span>
+            <span class="setRight"><i class="fa fa-chevron-down iconOpenHead" id="arrow" aria-hidden="true"></i></span>
         </div>
         <div class="chatBody">
             <div class="conversation" id="container">
-                <div class="bubble bubble-alt "><p style="font-size: 16px;color: rgb(255, 116, 4);;margin-bottom: 0px;">Hola, ¿En que te puedo ayudar?</p></div>
+                <div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">Bienvenido, ¿con que te puedo ayudar?</p></div>
+                <div class="buttons" onclick="setCategory(1)"><p style="font-size: 16px;margin-top: 5px;color: #172962;margin-bottom: 0px;">¿Qué es Travel | Sky?</p></div>
+                <a href="http://ww3.bancochile.cl/wps/wcm/connect/personas/portal/destacados/campana/hazte-clientes/solicitud-hazte-cliente" target="_blank"><div class="buttons"><p style="font-size: 16px;margin-top: 5px;color: #172962;margin-bottom: 0px;">Solicitar Travel | Sky</p></div></a>
+                <div class="buttons" onclick="setCategory(2)"><p style="font-size: 16px;margin-top: 5px;color: #172962;margin-bottom: 0px;">Beneficios</p></div>
+                <div class="buttons" onclick="setCategory(3)"><p style="font-size: 16px;margin-top: 5px;color: #172962;margin-bottom: 0px;">Canje de Dólares-Premio por Pasajes</p></div>
+
+                
             </div>
             <div class="mui-form-group">      
                 <input id="msg" type="text" class="msgInput mui-form-control" placeholder="Escribe un mensaje..." />
@@ -253,27 +436,71 @@
 
 
         <script>
+ 
             var Opened = false;
             function chatBox() {
                 console.log("chatBox");
                 if(Opened === false){
                     console.log("false");
-                    $('.chatHead').css( "bottom", "375px", 'important');
-                    $( "#arrow" ).removeClass( "fa-chevron-up" ).addClass("fa-chevron-down");
+                    $('.chatHead').css( "bottom", "400px", 'important');
                     $('.chatBody').css( "display", "block", 'important' );
+                    $('.chatHead').css( "display", "block", 'important');
+                    $('.chatbubble').css( "display", "none", 'important' );
                     Opened = true;
                 }else{
                     if(Opened === true){
                         console.log("true");
                         $('.chatHead').css( "bottom", "0px", 'important' );
-                        $( "#arrow" ).removeClass( "fa-chevron-down" ).addClass("fa-chevron-up");
+                        $('.chatHead').css( "display", "none", 'important');
                         $('.chatBody').css( "display", "none", 'important' );
+                        $('.chatbubble').css( "display", "block", 'important' );
+                        
                         Opened = false;
                     }
                 }
                 
             } 
+            function showBenefy(parm) {
+                if(parm === 1){
+                    $('#container').append('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">Ahora tus Dólares-Premio pueden ser canjeados por pasajes Sky, ingresando a www.skyairline.com. Elige tu destino y fecha de viaje, luego selecciona el botón de pago Banco de Chile. Infórmese sobre montos mínimos para canje en el Reglamento del Programa Travel publicado en www.bancochile.cl. Más información llamando al 600 300 9000.</p></div>');
+                }
+                if(parm === 2){
+                    $('#container').append('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">Usa siempre tus Tarjetas de Crédito Travel del Banco de Chile en la compra de pasajes Sky y podrás pagar en 6 o 12 cuotas sin interés, ya sea en las agencias de Sky a lo largo del país, directamente en www.skyairline.com al seleccionar el botón de pago Banco de Chile, o a través de cualquier agencia de viajes, siempre y cuando el cargo de la tarjeta sea facturado a Sky a través del sistema BSP de IATA (para compra de $100.000 en 12 cuotas de $8.333; CAE: 1,47%, Costo Total del Crédito: $ 100.792, beneficio válido hasta el 30-06-2017).</p></div>');
+                }
+                if(parm === 3){
+                    $('#container').append('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">Al tener una tarjeta Visa Signature, MasterCard Black o Visa Infinite emitida por Banco de Chile, disfruta de un check in preferente en los counters de Sky en aeropuertos nacionales e internacionales de todos los vuelos operados por Sky (excepto charters). Beneficio para titular de la tarjeta y acompañantes registrados bajo la misma reserva.</p></div>');
+                }
+                if(parm === 4){
+                    $('#container').append('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">Tú y un acompañante podrán optar a asientos preferentes en los vuelos Sky, situados en las tres primeras filas de la cabina o junto a las salidas de emergencia. Asignación sujeta a disponibilidad y por orden de llegada al counter, además el pasajero debe cumplir con los requisitos y políticas de seguridad de la línea aérea.</p></div>');
+                }
+                if(parm === 5){
+                    $('#container').append('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">Tú y tus acompañantes registrados bajo la misma reserva podrán disfrutar de embarque preferente, cuando se esté iniciando el proceso de ingreso al avión en todos los vuelos operados por Sky (excepto Charters). Para acceder a este beneficio presenta tu tarjeta Visa Signature, Mastercard Black o Visa Infinite al Agente de Embarque de Sky del aeropuerto.</p></div>');
+                }
+                if(parm === 6){
+                    $('#container').append('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">Si eres titular de tarjeta Visa Signature, MasterCard Black o Visa Infinite emitida por Banco de Chile, puedes llevar una pieza de equipaje extra sobre la tarifa contratada equivalente a 23 Kg, tanto en vuelos nacionales como internacionales. Para acceder a este beneficio presenta tu tarjeta en el counter del aeropuerto.</p></div>');
+                }
+                if(parm === 7){
+                    $('#container').append('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">Tu maleta y las de tus acompañantes serán identificadas con una etiqueta del programa Travel | Sky, por lo que aparecerán primero en las cintas transportadoras de entrega. Beneficio sujeto al correcto cumplimiento de las normas de seguridad Aeroportuaria.</p></div>');
+                }
+                if(parm === 8){
+                    $('#container').append('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">Accede gratuitamente a los Salones VIP Pacific Club, presentando tu Visa Signature, Mastercard Black o Visa Infinite. Beneficio exclusivo para titulares de estas tarjetas, revisa las condiciones en "más detalles".</p></div>');
+                }
+                $("#container").animate({ scrollTop: $('#container').prop("scrollHeight")}, 1000);
 
+            }
+            function setCategory(cat){
+                if(cat === 1){
+                    $('#container').html('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">Tus Tarjetas de crédito Travel del Banco de Chile se unieron a esta importante aerolínea nacional para darte la oportunidad de viajar cuando y donde quieras a través de una compra inteligente y disfrutando de beneficios inigualables en Chile y Sudamérica.</p></div>');
+                }
+                if(cat === 2){
+                    $('#container').html('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">La Alianza Travel | Sky dispone de los siguientes servicios.</p></div><div style="text-align: center;width: 100%;"><a onClick="showBenefy(1);" class="beneficios" style="text-decoration: none;" title="CANJEA TUS DÓLARES-PREMIO POR PASAJES SKY" href="#canjea-dolares"><div class="beneficios-icon beneficios_menu01"></div></a><a onClick="showBenefy(2);" title="COMPRA TUS PASAJES SKY DE 6 O 12 CUOTAS SIN INTERÉS" class="beneficios" style="text-decoration: none;" href="#cuotas-sin-interes"><div class="beneficios-icon beneficios_menu02"></div></a><a onClick="showBenefy(3);" title="CHECK-IN PREFERENTE" class="beneficios" style="text-decoration: none;" href="#check-in"><div class="beneficios-icon beneficios_menu03"></div></a><a onClick="showBenefy(4);" title="ASIENTO PREFERENTE" class="beneficios" style="text-decoration: none;" href="#asiento-preferencial"><div class="beneficios-icon beneficios_menu04"></div></a><a onClick="showBenefy(5);" title="EMBARQUE PREFERENTE" class="beneficios" style="text-decoration: none;" href="#embarque-preferente"><div class="beneficios-icon beneficios_menu05"></div></a><a onClick="showBenefy(6);" title="EQUIPAJE ADICIONAL GRATIS" class="beneficios" style="text-decoration: none;" href="#maleta-adicional"><div class="beneficios-icon beneficios_menu06"></div></a><a onClick="showBenefy(7);" title="ETIQUETA PREFERENTE" class="beneficios" style="text-decoration: none;" href="#retiro-preferente"><div class="beneficios-icon beneficios_menu07"></div></a><a onClick="showBenefy(8);" title="ACCESO A SALONES VIP PACIFIC CLUB" class="beneficios" style="text-decoration: none;" href="#acceso-vip"><div class="beneficios-icon beneficios_menu08"></div></a></div>');
+                }
+                if(cat === 3){
+                    $('#container').html('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">¿Estas buscando a donde viajar? Estos destinos se ajustan a tu saldo.</p></div><a href="https://www.skyairline.com/otros/flujo-compra/vista-mensual?fromCityCode=SCL&toCityCode=ANF" target="_blank"><div class="linkContainer"><img class="linkImg" alt="lowfare" src="https://www.skyairline.com/upload/Destinations/ANF_original.jpg"><p class="linkTitle">Antofagasta</p><p class="linkPrice">USD 28.00</p></div></a><a style="margin-left:17px;" href="https://www.skyairline.com/otros/flujo-compra/vista-mensual?fromCityCode=SCL&toCityCode=LSC" target="_blank"><div class="linkContainer"><img class="linkImg" alt="lowfare" src="https://www.skyairline.com/upload/Destinations/LSC_original.jpg"><p class="linkTitle">La Serena</p><p class="linkPrice">USD 15.00</p></div></a>');
+                }
+       
+                     
+            }
             function sendMsg(){
 
                 var text = $("#msg").val();
@@ -293,7 +520,7 @@
                 };
 
                 $.ajax({
-                    url: "http://localhost:2001/reply",
+                    url: "http://dec01.cloudapp.net/SofiaBDC/reply",
                     type: "POST",
                     dataType: "JSON",
                     contentType: 'application/json; charset=utf-8',
@@ -303,7 +530,7 @@
                     },
                     success: function (res) {
                     console.log("res = " , res);
-                        $("#container").append('<div class="bubble bubble-alt "><p style="font-size: 16px;color: rgb(255, 116, 4);;margin-bottom: 0px;">'+res.reply+'</p></div>');
+                        $("#container").append('<div class="bubble bubble-alt "><p style="font-size: 16px;color: #172962;margin-bottom: 0px;">'+res.reply+'</p></div>');
                         $("#container").animate({ scrollTop: $('#container').prop("scrollHeight")}, 1000);
                     },
                     
