@@ -1,53 +1,57 @@
-! var respuesta48 = Â¿Hay algo mÃ¡s que pueda hacer por ti?
+! var respuesta48 = ¿Hay algo más que pueda hacer por ti?
 
-! var respuesta45= Hola! Gusto en saludarte. Â¿En que le puedo ayudar?
+! var respuesta45= Hola! Gusto en saludarte. ¿En que le puedo ayudar?
 
-! var respuesta47= Que tal? Muy bien, gracias por preguntar! Â¿Como puedo ayudarle?
+! var respuesta47= Que tal? Muy bien, gracias por preguntar! ¿Como puedo ayudarle?
 
-! var respuesta46= Saludos! Es un placer hablar con usted. Â¿En que le puedo ayudar?
+! var respuesta46= Saludos! Es un placer hablar con usted. ¿En que le puedo ayudar?
 
 ! var respuesta54 = Por favor aguarde, mientras lo derivo a un ejecutivo de cuenta.
 
-! var respuesta10=Tus Tarjetas de crÃ©dito Travel del Banco de Chile se unieron a esta importante aerolÃ­nea nacional para darte la oportunidad de viajar cuando y donde quieras a travÃ©s de una compra inteligente y disfrutando de beneficios inigualables en Chile y SudamÃ©rica. Gracias a la Alianza Travel | Sky, desde ahora podrÃ¡s canjear tus DÃ³lares-Premio por pasajes de Sky y disfrutar de beneficios exclusivos tanto en el aeropuerto como en el aviÃ³n.
+! var respuesta10=Tus Tarjetas de crédito Travel del Banco de Chile se unieron a esta importante aerolínea nacional para darte la oportunidad de viajar cuando y donde quieras a través de una compra inteligente y disfrutando de beneficios inigualables en Chile y Sudamérica. Gracias a la Alianza Travel | Sky, desde ahora podrás canjear tus Dólares-Premio por pasajes de Sky y disfrutar de beneficios exclusivos tanto en el aeropuerto como en el avión.
 
-! var respuesta11=ContÃ¡ctanos al 600 300 9000. Llama si tienes dudas o requieres informaciÃ³n. TambiÃ©n puedes escribir a beneficiostravelsky@travelclub.cl
+! var respuesta11=Contáctanos al 600 300 9000. Llama si tienes dudas o requieres información. También puedes escribir a beneficiostravelsky@travelclub.cl
 
-! var respuesta12=Usa tus tarjetas y acumula mÃ¡s DÃ³lares-Premio para canjearlos por pasajes en Sky Airline, directamente en www.skyairline.com
+! var respuesta12=Usa tus tarjetas y acumula más Dólares-Premio para canjearlos por pasajes en Sky Airline, directamente en www.skyairline.com
 
-! var respuesta13= El valor es 1 DÃ³lar Premio - 1 DÃ³lar de verdad
+! var respuesta13= El valor es 1 Dólar Premio - 1 Dólar de verdad
 
-! var respuesta14= Canjea tus DÃ³lares-Premio por el valor total del pasaje o paga parte del monto con tus tarjetas. InfÃ³rmese sobre montos mÃ­nimos para canje en el Reglamento del Programa Travel publicado en www.bancochile.cl. MÃ¡s informaciÃ³n llamando al 600 300 9000.
+! var respuesta14= Canjea tus Dólares-Premio por el valor total del pasaje o paga parte del monto con tus tarjetas. Infórmese sobre montos mínimos para canje en el Reglamento del Programa Travel publicado en www.bancochile.cl. Más información llamando al 600 300 9000.
 
-! var respuesta15= 1. Ingresa a SkyAirline.com 2. Selecciona tu destino, vuelos y tarifa 3. Selecciona el botÃ³n de pago Banco de Chile y sigue las instrucciones.
+! var respuesta15= 1. Ingresa a SkyAirline.com 2. Selecciona tu destino, vuelos y tarifa 3. Selecciona el botón de pago Banco de Chile y sigue las instrucciones.
 
-! var respuesta16= DÃ³lar Premio es la unidad que usted acumula al usar la Tarjeta Sky, para luego canjearlos por pasajes!
+! var respuesta16= Dólar Premio es la unidad que usted acumula al usar la Tarjeta Sky, para luego canjearlos por pasajes!
 
-! var respuesta17= Banco de Chile es el emisor de la tarjeta de crÃ©dito TravelClub y el prestador de los servicios bancarios asociados a Ã©stas.
+! var respuesta17= Banco de Chile es el emisor de la tarjeta de crédito TravelClub y el prestador de los servicios bancarios asociados a éstas.
 
-! var respuesta18= Estimado, el saldo de DÃ³lares Premio es de 560, equivalente a USD 560.
+! var respuesta18= Estimado, el saldo de Dólares Premio es de 560, equivalente a USD 560.
 
-! var respuesta21 = Al tener una tarjeta Visa Signature, MasterCard Black o Visa Infinite emitida por Banco de Chile, disfruta de un check in preferente en los counters de Sky en aeropuertos nacionales e internacionales de todos los vuelos operados por Sky (excepto charters). Beneficio para titular de la tarjeta y acompaÃ±antes registrados bajo la misma reserva.
+! var respuesta21 = Al tener una tarjeta Visa Signature, MasterCard Black o Visa Infinite emitida por Banco de Chile, disfruta de un check in preferente en los counters de Sky en aeropuertos nacionales e internacionales de todos los vuelos operados por Sky (excepto charters). Beneficio para titular de la tarjeta y acompañantes registrados bajo la misma reserva.
 
-! var respuesta22 = TÃº y un acompaÃ±ante podrÃ¡n optar a asientos preferentes en los vuelos Sky, situados en las tres primeras filas de la cabina o junto a las salidas de emergencia. AsignaciÃ³n sujeta a disponibilidad y por orden de llegada al counter, ademÃ¡s el pasajero debe cumplir con los requisitos y polÃ­ticas de seguridad de la lÃ­nea aÃ©rea.
+! var respuesta22 = Tú y un acompañante podrán optar a asientos preferentes en los vuelos Sky, situados en las tres primeras filas de la cabina o junto a las salidas de emergencia. Asignación sujeta a disponibilidad y por orden de llegada al counter, además el pasajero debe cumplir con los requisitos y políticas de seguridad de la línea aérea.
 
-! var respuesta23= TÃº y tus acompaÃ±antes registrados bajo la misma reserva podrÃ¡n disfrutar de embarque preferente, cuando se estÃ© iniciando el proceso de ingreso al aviÃ³n en todos los vuelos operados por Sky (excepto Charters). Para acceder a este beneficio presenta tu tarjeta Visa Signature, Mastercard Black o Visa Infinite al Agente de Embarque de Sky del aeropuerto.
+! var respuesta23= Tú y tus acompañantes registrados bajo la misma reserva podrán disfrutar de embarque preferente, cuando se esté iniciando el proceso de ingreso al avión en todos los vuelos operados por Sky (excepto Charters). Para acceder a este beneficio presenta tu tarjeta Visa Signature, Mastercard Black o Visa Infinite al Agente de Embarque de Sky del aeropuerto.
 
 ! var respuesta24= Si eres titular de tarjeta Visa Signature, MasterCard Black o Visa Infinite emitida por Banco de Chile, puedes llevar una pieza de equipaje extra sobre la tarifa contratada equivalente a 23 Kg, tanto en vuelos nacionales como internacionales. Para acceder a este beneficio presenta tu tarjeta en el counter del aeropuerto.
 
-! var respuesta25= Tu maleta y las de tus acompaÃ±antes serÃ¡n identificadas con una etiqueta del programa Travel | Sky, por lo que aparecerÃ¡n primero en las cintas transportadoras de entrega. Beneficio sujeto al correcto cumplimiento de las normas de seguridad Aeroportuaria.
+! var respuesta25= Tu maleta y las de tus acompañantes serán identificadas con una etiqueta del programa Travel | Sky, por lo que aparecerán primero en las cintas transportadoras de entrega. Beneficio sujeto al correcto cumplimiento de las normas de seguridad Aeroportuaria.
 
-! var respuesta26= Accede gratuitamente a los Salones VIP Pacific Club, presentando tu Visa Signature, Mastercard Black o Visa Infinite. Beneficio exclusivo para titulares de estas tarjetas, revisa las condiciones en "mÃ¡s detalles".
+! var respuesta26= Accede gratuitamente a los Salones VIP Pacific Club, presentando tu Visa Signature, Mastercard Black o Visa Infinite. Beneficio exclusivo para titulares de estas tarjetas, revisa las condiciones en "más detalles".
 
-! var respuesta27= Beneficios de Maleta adicional, Check in preferente, Embarque preferente y Asiento preferente SON GRATUITOS presentando las tarjetas en el Counter por lo tanto al momento de elegir el tipo de tarifa al comprar en Skyairline.com SE RECOMIENDA ELEGIR LA TARIFA LIGHT que no incluye el cobro de estos servicios adicionales. El beneficio de Asiento preferente estÃ¡ sujeto a disponibilidad de asientos libres de las primeras filas al momento de la solicitud en el counter. Preguntame tambiÃ©n por etiquetado preferente y acceso a salones VIP Pacific Club.
+! var respuesta27= Beneficios de Maleta adicional, Check in preferente, Embarque preferente y Asiento preferente SON GRATUITOS presentando las tarjetas en el Counter por lo tanto al momento de elegir el tipo de tarifa al comprar en Skyairline.com SE RECOMIENDA ELEGIR LA TARIFA LIGHT que no incluye el cobro de estos servicios adicionales. El beneficio de Asiento preferente está sujeto a disponibilidad de asientos libres de las primeras filas al momento de la solicitud en el counter. Preguntame también por etiquetado preferente y acceso a salones VIP Pacific Club.
 
-! var respuesta28= Usa siempre tus Tarjetas de CrÃ©dito Travel del Banco de Chile en la compra de pasajes Sky y podrÃ¡s pagar en 6 o 12 cuotas sin interÃ©s, ya sea en las agencias de Sky a lo largo del paÃ­s, directamente en www.skyairline.com al seleccionar el botÃ³n de pago Banco de Chile, o a travÃ©s de cualquier agencia de viajes, siempre y cuando el cargo de la tarjeta sea facturado a Sky a travÃ©s del sistema BSP de IATA (para compra de $100.000 en 12 cuotas de $8.333; CAE: 1,47%, Costo Total del CrÃ©dito: $ 100.792, beneficio vÃ¡lido hasta el 30-06-2017).
+! var respuesta28= Usa siempre tus Tarjetas de Crédito Travel del Banco de Chile en la compra de pasajes Sky y podrás pagar en 6 o 12 cuotas sin interés, ya sea en las agencias de Sky a lo largo del país, directamente en www.skyairline.com al seleccionar el botón de pago Banco de Chile, o a través de cualquier agencia de viajes, siempre y cuando el cargo de la tarjeta sea facturado a Sky a través del sistema BSP de IATA (para compra de $100.000 en 12 cuotas de $8.333; CAE: 1,47%, Costo Total del Crédito: $ 100.792, beneficio válido hasta el 30-06-2017).
 
-! var respuesta29= Estos Beneficios son vÃ¡lidos hasta el 30 de junio del 2017 
+! var respuesta29= Estos Beneficios son válidos hasta el 30 de junio del 2017 
 
-! var respuesta40= Usa tus tarjetas al comprar tus pasajes Sky y podrÃ¡s pagar en 6 o 12 cuotas sin interÃ©s, acumulando ademÃ¡s nuevos DÃ³lares-Premio. Por favor haga click en el boton "Compra tu pasaje aquÃ­"
+! var respuesta30= Gracias a la Alianza Travel | Sky y Banco de Chile, desde ahora podrás canjear tus Dólares-Premio por pasajes de Sky y disfrutar de beneficios exclusivos tanto en el aeropuerto como en el avión. Contáctanos al 600 300 9000. Llama si tienes dudas o requieres información. También puedes escribir a beneficiostravelsky@travelclub.cl.
+
+! var respuesta31= Hazte cliente de Banco de Chile accediendo al siguiente link: http://ww3.bancochile.cl/wps/wcm/connect/personas/portal/destacados/campana/hazte-clientes
+ 
+! var respuesta40= Usa tus tarjetas al comprar tus pasajes Sky y podrás pagar en 6 o 12 cuotas sin interés, acumulando ademés nuevos Dálares-Premio. Por favor haga click en el boton "Compra tu pasaje aquí"
 
 ! var respuesta41= Tenemos beneficios exclusivos para tarjetas Visa Signature, MasterCard Black y Visa Infinite.
 
-! var respuesta42= COMPRA TUS PASAJES EN 6 O 12 CUOTAS SIN INTERÃ‰S. Usa tus tarjetas al comprar tus pasajes Sky y podrÃ¡s pagar en 6 o 12 cuotas sin interÃ©s, acumulando ademÃ¡s nuevos DÃ³lares-Premio.
+! var respuesta42= COMPRA TUS PASAJES EN 6 O 12 CUOTAS SIN INTERÉS. Usa tus tarjetas al comprar tus pasajes Sky y podrás pagar en 6 o 12 cuotas sin interés, acumulando además nuevos Dólares-Premio.
 
 

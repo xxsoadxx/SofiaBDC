@@ -1,4 +1,4 @@
-! array travelsky= travelsky|travel|sky|skytravel|travelclub|travel club|clubtravel|club travel
+! array travelsky= travelsky|travel|sky|skytravel|tarjeta|tarjetas|con ella|con ellas|travelclub|travel club|clubtravel|club travel
 
 ! array do = realizar realice realizo realizamos realizaremos hacer hice hare hacemos hicimos haremos efectuar efectuarse efectuaremos efectuamos hago hagamos puedo
 
@@ -8,7 +8,7 @@
 
 ! array dolar= dolar dolares
 
-! array checkin= check in|checkin|chec in|checin|chequin|cheque in|chek in|checin|chequin|check-in|chek-in|chec-in
+! array checkin= check in|checkin|chec in|checin|chequin|cheque in|chek in|checin|chequin
 
 ! array dolarprize= dolar premio|dolares premio|dolar premios|dolares premios
 
@@ -52,7 +52,7 @@
 
 ! array baggage = equipaje|valija|equipajes|valijas|maleta|maletas
 
-! array label = etiqueta|etiquetas|etiquetada|etiquetadas|etiquetaria|etiquetarian|etiquetare|etiquetaran|etiquetado|etiquetados
+! array label = etiqueta|etiquetas|etiquetada|etiquetadas|etiquetaria|etiquetarian|etiquetare|etiquetaran
 
 ! array pacificclub = pacific club|pacificclub|pacificlub|pasific club|pasificlub|pasificclub
 
@@ -70,10 +70,4 @@
 
 ! array whatis = que es|que es esto|en que consiste|como es|como es esto
 
-! array access= accedo|accederia|consigo|conseguiria|consiguiendo|accediendo|acceso|afilio|afiliarme|
-
-! array buy= comprar|compro|compre|comprare
-
-! array exclusive= exclusivo exclusivos exclusiva exclusivas exclusivamente
-
-! array card= tarjeta tarjetas master|master card|visa signature|mastercard black|visa|infinite
+! array access= accedo|accederia|consigo|conseguiria|consiguiendo|accediendo|acceso

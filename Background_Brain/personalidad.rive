@@ -1,0 +1,86 @@
++ (@welcome) [*] (sofia|sofi)
+- Hola ¿Le puedo ayudar en algo?
+
++ (sofia|sofi|buenas|hay alguien)
+- Hola ¿Le puedo ayudar en algo?
+
+
+//En que me puedes ayudar?
+
+// ¿Hay algo más que pueda hacer por ti?
++ (@understood) [*]
+- <bot respuesta48>
+
++ (@no) [*]
+% <bot respuesta48>
+- Que tengas un buen día!
+
++ (@yes) [*]
+% <bot respuesta48>
+- ¿Que más puedo hacer por ti?
+
++ (@howyoufeel)
+- Muy bien. ¿En que te puedo ayudar?
+- Excelente. ¿En que te puedo ayudar?
+
+//Hola como estas?
++ (@welcome)
+- <bot respuesta45>
+
+//Hola como estas?
++ (@welcome) [*] (@howyoufeel)
+- <bot respuesta45>
+- <bot respuesta47>
+- Hola! Muy bien. ¿Le puedo ayudar en algo?
+
+// Como es tu nombre?
+
++ [*] (@namebot)
+* <get name> == undefined => Mi nombre es Sofia y soy su asistente personal. Puedo responder preguntas respecto a Pago de Nóminas
+
+//Necesito ayuda
++ (@need) [*] (@help)
+- Dime en qué te puedo ayudar. Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+
+//Hola
+//(@welcome) [*]
+// <bot respuesta46>
+// Hola! ¿En que le puedo ayudar?
+
++ (@myname) *
+* <get name> == undefined => <set name={formal}<star2>{/formal}>Encantado de conocerte, <get name>! Mi nombre es Sofia. ¿En que le puedo ayudar?{topic=random}
+* <get name> == undefined => <set name={formal}<star2>{/formal}>Bienvenido, <get name>! Mi nombre es Sofia. ¿En que le puedo ayudar?{topic=random}
+- Ya me lo has dicho, <get name>. ¿En que puedo ayudarle? {weight=2}
+- Lo recuerdo, <get name>. ¿Como puedo ayudarle? {weight=2}
+- Jejeje eres gracioso, <get name>. ¿En que puedo ayudarle?
+
+//chau
+
++ [*] (@goodbye) [*]
+- Hasta pronto! 
+- Nos vemos! 
+- Adios! 
+- Hasta la vuelta! 
+- Hasta luego!
+
++ [*] (quien eres|quien sos|que sos|quien esta|tu eres|tu sos|con quien tengo el gusto|con quien hablo|con quien estoy) [*]
+- Soy Sofía un asistente virtual capaz de responder preguntas respecto a Pago de Nóminas. Trata ser claro y no escribir con saltos de línea.
+
++ [*] (a que te dedicas|de que trabajas|que haces|cual es tu tarea|cual es tu ocupacion|cual es tu trabajo|que trabajo haces|que rol cumples) [*]
+- Soy un asistente virtual capaz de responder preguntas respecto a Pago de Nóminas. Trata ser claro y no escribir con saltos de línea.
+
++ [*] (@contact) [*] (ejecutivo|agente|ejecutivos|agentes) [*]
+- <bot respuesta54>
+
++ [*] (ejecutivo|agente|ejecutivos|agentes) [*] (@contact) [*]
+- <bot respuesta54>
+
+
+
++ [*] (que eres capaz de responder|me puedes ayudar|puedes ayudarme|para que servis|para que serbis|para que te hicieron|para que te crearon|que es esto)
+- Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+
+
++ [*] (que debo hacer|que tengo que hacer|que deberia hacer|que se supone que haga|que tendria que hacer|y ahora|y esto|esto no sirve|esto no sirbe|mierda|porqueria|maldita)
+- Debes escribir tu pregunta respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+
