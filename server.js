@@ -21,16 +21,16 @@ var bot = new RiveScript({debug: false});
 
 var botBackground = new RiveScript({debug: false});
 
+botBackground.loadDirectory("./Background_Brain", success_handler_back, error_handler);
 
 
-bot.loadDirectory("./Sofia_Brain", success_handler_back, error_handler);
-
-botBackground.loadDirectory("./Background_Brain", success_handler, error_handler);
 
 function success_handler_back (loadcount) {
 	console.log("Load #" + loadcount + " completed!");
 
 	botBackground.sortReplies();
+	
+	bot.loadDirectory("./Sofia_Brain", success_handler, error_handler);
 }
 
 
